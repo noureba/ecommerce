@@ -1,0 +1,29 @@
+.mobileBarButton {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .mobileBarButton {
+    display: block;
+    position: relative;
+  }
+  .mobileBarButton .menuMobile {
+    position: fixed;
+    z-index: 9999;
+    width: 70%;
+    background-color: #17171a;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    color: white;
+  }
+  .mobileBarButton .menuMobile a {
+    color: white;
+  }
+
+  .menu {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=mobileMenu.module.css.map */

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+    transition: 0.3s ;
+}
+a{
+    text-decoration: none;
+    &:hover{
+        color: orange;
+    }
+}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0;
+}
+.dark{
+    color: white;
+    background-color: rgb(34, 34, 34);
+}
+.light{
+    color: rgb(36, 36, 36);
+    background-color: white;
+}
+.width{
+    max-width: 500px;
+}
+.widthPro{
+    width: 280px;
+}
+.show{
+    left: -400px !important;
+}
+.test{
+    border: 1px solid red;
+}
+
+@media(max-width: 900px){
+    .mobileBarButton{
+        display: block;
+    }
+    .width{
+        width: 100%;
+    }
+    .widthPro{
+        width: 100%;
+    }
+
+}

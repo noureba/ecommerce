@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 1px solid rgb(221, 221, 221);
+    .about{
+        max-width: 30%;
+    }
+}
+
+@media(max-width:900px){
+    .footer{
+        flex-direction: column;
+        justify-content: start;
+        align-items:flex-start;
+        .about{
+            max-width: 100%;
+        }
+    }
+    
+}
