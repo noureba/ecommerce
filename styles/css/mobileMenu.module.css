@@ -1,6 +1,21 @@
 .mobileBarButton {
   display: none;
 }
+.mobileBarButton a {
+  text-decoration: none;
+  color: #17171a;
+}
+.mobileBarButton a:hover {
+  color: #2bff00;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: orange;
+}
 
 @media (max-width: 900px) {
   .mobileBarButton {

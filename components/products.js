@@ -14,7 +14,7 @@ function Products(props) {
       className="d-flex flex-row flex-wrap justify-content-center aling-items-center my-5"
     >
       {props.data.map((product) => (
-        <div key={product.id} className={`widthPro border m-2 p-3 `}>
+        <div key={product.id} className={`widthPro border m-1 p-3 `}>
           <Link href={`/products/${product.id}`} passHref>
             <div>
               <Image

@@ -7,27 +7,10 @@
   transition: 0.3s;
 }
 
-a {
-  text-decoration: none;
-}
-a:hover {
-  color: orange;
-}
-
 .container {
   max-width: 1500px;
   margin: 0 auto;
   padding: 0;
-}
-
-.dark {
-  color: white;
-  background-color: #222222;
-}
-
-.light {
-  color: #242424;
-  background-color: white;
 }
 
 .width {

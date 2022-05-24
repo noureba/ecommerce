@@ -9,6 +9,13 @@
 .footer .about {
   max-width: 30%;
 }
+.footer div:nth-child(2) a, .footer div:nth-child(3) a {
+  text-decoration: none;
+  color: black;
+}
+.footer div:nth-child(2) a:hover, .footer div:nth-child(3) a:hover {
+  color: orange;
+}
 
 @media (max-width: 900px) {
   .footer {

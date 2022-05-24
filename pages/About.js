@@ -10,7 +10,7 @@ function About() {
       <h1 className="text-center tw-bold my-5">About us</h1>
       <div className=" d-flex flex-row flex-wrap justify-content-around align-items-center py-5">
         <Image
-          src="/../public/img/about.jpg"
+          src="https://res.cloudinary.com/dia3y316g/image/upload/v1653380337/ecommerce/about_c6qyli.jpg"
           alt="about us"
           width="600"
           height="600"

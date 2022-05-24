@@ -41,10 +41,10 @@ function NavBar() {
           <Link href="/products" passHref>
             <a className={`p-3 fs-5 border-top`}>Products</a>
           </Link>
-          <Link href="/about" passHref>
+          <Link href="/About" passHref>
             <a className={`p-3 fs-5 border-top`}>About Us</a>
           </Link>
-          <Link href="/contact" passHref>
+          <Link href="/Contact" passHref>
             <a className={`p-3 fs-5 border-top `}>Contact Us</a>
           </Link>
         </div>
@@ -56,26 +56,26 @@ function NavBar() {
       </div>
       <div className={`d-flex flex-row align-items-center ${mbileMenu.menu}`}>
         <Link href="/" passHref>
-          <a className={`mx-4 fs-5 light`}>Home</a>
+          <a className={`mx-4 fs-5`}>Home</a>
         </Link>
         <Link href="/products" passHref>
-          <a className={`mx-4 fs-5 light`}>
+          <a className={`mx-4 fs-5 `}>
             Products
           </a>
         </Link>
-        <Link href="/about" passHref>
-          <a className={`mx-4 fs-5 light`}>
+        <Link href="/About" passHref>
+          <a className={`mx-4 fs-5 `}>
             About Us
           </a>
         </Link>
-        <Link href="/contact" passHref>
-          <a className={`mx-4 fs-5 light`}>
+        <Link href="/Contact" passHref>
+          <a className={`mx-4 fs-5 `}>
             Contact Us
           </a>
         </Link>
       </div>
       <div>
-        <Link href="/cart" passHref>
+        <Link href="/Cart" passHref>
           
           <p  className="position-relative">
           <i className={`fs-3`}>

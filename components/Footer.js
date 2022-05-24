@@ -34,13 +34,13 @@ function Footer() {
           data-aos="fade-left"
         >
           <Link href="/products" passHref>
-            <a className={`light py-2`}>store</a>
+            <a className={` py-2`}>store</a>
           </Link>
-          <Link href="/about" passHref>
-            <a className={`light py-2`}>About us</a>
+          <Link href="/About" passHref>
+            <a className={` py-2`}>About us</a>
           </Link>
-          <Link href="/contact" passHref>
-            <a className={`light py-2`}>Contact us</a>
+          <Link href="/Contact" passHref>
+            <a className={` py-2`}>Contact us</a>
           </Link>
         </div>
         <div
@@ -49,13 +49,13 @@ function Footer() {
           data-aos="fade-left"
         >
           <Link href="/products" passHref>
-            <a className={`light py-2`}>Terms and conditions</a>
+            <a className={` py-2`}>Terms and conditions</a>
           </Link>
           <Link href="/about" passHref>
-            <a className={`light py-2`}>Payment and shipping policy</a>
+            <a className={` py-2`}>Payment and shipping policy</a>
           </Link>
           <Link href="/contact" passHref>
-            <a className={`light py-2`}>Return policy</a>
+            <a className={` py-2`}>Return policy</a>
           </Link>
         </div>
       </div>
@@ -63,7 +63,7 @@ function Footer() {
         <p className="">All Rights Reserved © 2022</p>
         <div className="">
           <Image
-            src="/../public/img/paymentMethods.png"
+            src="https://res.cloudinary.com/dia3y316g/image/upload/v1653380334/ecommerce/paymentMethods_gwpfsu.png"
             alt="payment methods"
             width="200"
             height="50"
