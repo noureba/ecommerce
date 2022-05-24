@@ -35,7 +35,7 @@ function Cart() {
         <p className="fs-2 fw-bold text-center p-5"> Cart is Empty</p>
       ) : (
         <div className="d-flex flex-wrap flex-row justify-content-center">
-          <div className="p-2">
+          <div className="p-2 w-75">
             <table className="table border ">
               <thead>
                 <tr>
@@ -73,7 +73,7 @@ function Cart() {
             <p>Shipping : Free</p>
             <p>Tax : 0%</p>
             <button className={`${buttonStyle.button}`}>
-              <Link className="text-white" href="/checkout" passHref>
+              <Link className="text-white" href="/Checkout" passHref>
                 Chekout
               </Link>
             </button>

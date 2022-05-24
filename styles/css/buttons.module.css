@@ -29,5 +29,9 @@
   transform-origin: center left;
   transform: scaleX(1);
 }
+.button a {
+  text-decoration: none;
+  color: white;
+}
 
 /*# sourceMappingURL=buttons.module.css.map */
